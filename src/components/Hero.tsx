@@ -23,7 +23,7 @@ const Hero = () => {
             <Button
               asChild
               variant="outline"
-              className="border-white text-white hover:bg-white/10 rounded-full px-8 py-6 text-base"
+              className="border-apple-red text-apple-red hover:bg-apple-red/10 rounded-full px-8 py-6 text-base"
             >
               <Link to="/instructions">Узнать больше</Link>
             </Button>
