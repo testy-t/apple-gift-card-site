@@ -1,13 +1,13 @@
 
 import { Link } from "react-router-dom";
-import { ShoppingCart } from "lucide-react";
+import { ShoppingCart, Apple } from "lucide-react";
 
 const Header = () => {
   return (
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-200">
       <div className="container mx-auto flex justify-between items-center h-16 px-4">
         <Link to="/" className="flex items-center">
-          <img src="/logo-b.svg" alt="Apple Gift Card" className="h-8 w-auto" />
+          <Apple className="h-6 w-6 text-apple-black" />
         </Link>
         
         <nav className="hidden md:flex space-x-8">
