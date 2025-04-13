@@ -16,7 +16,7 @@ const Hero = () => {
           <div className="flex justify-center gap-4">
             <Button
               asChild
-              className="bg-white text-apple-black hover:bg-gray-200 rounded-full px-8 py-6 text-base"
+              className="bg-apple-red text-white hover:bg-apple-red/90 rounded-full px-8 py-6 text-base"
             >
               <Link to="/cards">Купить сейчас</Link>
             </Button>
