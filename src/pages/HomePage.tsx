@@ -1,4 +1,3 @@
-
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -27,7 +26,7 @@ const HomePage = () => {
             </p>
             <Button
               asChild
-              className="bg-apple-blue hover:bg-apple-darkblue rounded-full px-8 py-6 text-base"
+              className="bg-apple-red hover:bg-apple-red/90 rounded-full px-8 py-6 text-base"
             >
               <Link to="/cards">Выбрать карту</Link>
             </Button>
