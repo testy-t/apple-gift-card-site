@@ -9,10 +9,8 @@ export function useScrollToTop() {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+    // Используем простой метод без анимации, чтобы избежать проблем со стилями
+    window.scrollTo(0, 0);
   }, [pathname]);
 }
 
